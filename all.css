@@ -1,0 +1,127 @@
+#game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#result {
+  color: green;
+  font-weight: bold
+}
+
+#resultno {
+  font-size: 1.98vh;
+  color: red;
+  font-weight: bold;
+}
+
+#resulttotal {
+  color: orange;
+  font-weight: bold;
+}
+
+#flag-image {
+  justify-content: center;
+  margin-bottom: 1em;
+  width: 600px;
+  height: 425px;
+  border-radius: 15px;
+  border: 2px black solid;
+  transition: 1.7s;
+}
+
+#question-text {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#timer {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.input {
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 1.5vh;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.scorepoint {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.score-p {
+  font-size: 4.5vh;
+}
+
+p {
+  font-size: 2vh;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.noadd {
+  color: red;
+  font-weight: bold;
+}
+
+.actif {
+  color: green;
+  font-weight: bold;
+}
+
+.actiftext {
+  color: green;
+}
+
+.noaddtext {
+  color: red;
+}
+li {
+  font-size: 2.5vh;
+  transition: 0.8s;
+}
+
+li:hover {
+  transition: 0.8s;
+  font-size: 2.9vh;
+}
+
+h1{
+  font-size: 4vh;
+}
+
+span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  #flag-image {
+    justify-content: center;
+    margin-bottom: 1em;
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+    border: 2px black solid;
+  } 
+}
